@@ -1,3 +1,11 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --other-color: rgb(5, 5, 110);
+  }
+
 .profile-img img{
     border-radius: 50%;
     width: 25vw;
@@ -20,3 +28,42 @@
     }
     
 }
+
+.profile{
+    background: var(--second-bg-color);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  
+  .profile-container {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+  }
+  
+  .profile-container {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+  } 
+
+  .profileText{
+    font-size: 1.7rem;
+    text-align: left;
+  }
+
+ .highlight{
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--other-color), 2px 2px 1px var(--other-color);
+  }
