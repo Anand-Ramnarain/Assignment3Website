@@ -1,0 +1,22 @@
+.profile-img img{
+    border-radius: 50%;
+    width: 25vw;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+@media (max-width: 900px){
+    .profile-img img{
+        width: 50vw;
+        margin-left: 23%;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .profile-img img{
+        width: 50vw;
+        margin-left: 23%;
+    }
+    
+}

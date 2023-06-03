@@ -1,0 +1,82 @@
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+
+.blogs2 {
+  background: var(--second-bg-color);
+}
+
+.blogs h2 {
+  margin-bottom: 5rem;
+}
+
+.blogs-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3%;
+}
+
+.blogs-containers,
+.blogs-boxs {
+  flex: 1 1 30rem;
+  background: var(--second-bg-color);
+  padding: 2rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.blogs-containers,
+.blogs-boxs:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.blogs-boxs i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.blogs-boxs h3 {
+  font-size: 2.6rem;
+}
+
+.blogs-boxs p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
+.secondarynav a{
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: 0.3s; 
+
+}
+
+.secondarynav a:hover, .secondarynav a.active{
+  color: var(--main-color);
+}
+
+.secondarynav{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 6%;
+  padding: 1rem 25%;
+  background: var(--second-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin-right: 5%;
+  overflow: auto;
+  white-space: nowrap;
+}

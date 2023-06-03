@@ -1,0 +1,80 @@
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+
+.essays {
+  background: var(--bg-color);
+}
+
+.bib {
+  background: var(--second-bg-color);
+}
+
+.essayText {
+  font-size: 1.7rem;
+  text-align: left;
+}
+
+.essay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.essay-container {
+  flex: 1 1 30rem;
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.essay-container {
+  /* border-color: var(--main-color); */
+  transform: scale(1.02);
+} 
+
+.bib-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.bib-container {
+  flex: 1 1 30rem;
+  background: var(--bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+  margin-top: 10%;
+}
+
+.bib-container {
+  /* border-color: var(--main-color); */
+  transform: scale(1.02);
+} 
+
+.bibText{
+  font-size: 2rem;
+  text-align: left;
+  word-spacing: 5px;
+}
+
+.bibText a{
+  color: var(--main-color);
+}
