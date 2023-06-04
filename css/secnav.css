@@ -1,0 +1,35 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+  }
+
+.secondarynavs a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 6rem;
+    transition: 0.3s; 
+    overflow-x: hidden;
+  
+  }
+  
+  .secondarynavs a:hover, .secondarynavs a.active{
+    color: var(--main-color);
+  }
+  
+  .secondarynavs{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 8%;
+    padding: 1rem 10%;
+    background: var(--second-bg-color);
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-right: 5%;
+    overflow: auto;
+    white-space: nowrap;
+  }
