@@ -89,7 +89,7 @@
 
 .bSubhead{
   font-size: 2rem;
-  text-decoration: wavy underline;
+  text-decoration: wavy underline var(--main-color);
 }
 
 .blog{

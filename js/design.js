@@ -26,3 +26,33 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+let slidesIndex = 1;
+showSlidess(slidesIndex);
+
+// Next/previous controls
+function plusSlidess(n) {
+  showSlidess(slidesIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlides(n) {
+  showSlidess(slidesIndex = n);
+}
+
+function showSlidess(n) {
+  let i;
+  let slidess = document.getElementsByClassName("mySlidess");
+  let dotss = document.getElementsByClassName("dots");
+  if (n > slidess.length) {slidesIndex = 1}
+  if (n < 1) {slidesIndex = slidess.length}
+  for (i = 0; i < slidess.length; i++) {
+    slidess[i].style.display = "none";
+  }
+  for (i = 0; i < dotss.length; i++) {
+    dotss[i].className = dotss[i].className.replace(" active", "");
+  }
+  slidess[slidesIndex-1].style.display = "block";
+  dotss[slidesIndex-1].className += " active";
+}
+

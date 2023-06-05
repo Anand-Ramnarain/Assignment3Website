@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/blog.css">
-    <link rel="stylesheet" href="../css/portfolio.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
+    <link rel="stylesheet" href="../css/essay.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-          <script id="replace_with_navbar" src="../js/nav.js"></script>
-        </nav>
-      </header>
+      <nav>
+        <script id="replace_with_navbar" src="../js/nav.js"></script>
+      </nav>
+    </header>
 
-      <section class="port" id="portfolio">
-        <nav class="secondarynav" id="secondarynav">
-          <a href="#portfolio" class="active">Portfolio</a>
-          <a href="#project">Projects</a>
-        </nav>
-        <h2 class="heading"><span>Portfolio</span></h2>
-      </section>
+    <section class="port" id="portfolio">
+      <h2 class="heading"><span>Portfolio</span></h2>
+      <main class="blog-container">
+        <article>
+          <p class="essayText">
+            A portfolio is generally a collection of work samples, projects, or
+            achievements that showcases an individual's skills, abilities, and
+            progression over time. It serves as a tangible representation of
+            one's growth and development in a particular field. <br /><br />
+            In my portfolio, I want to demonstrate the evolution and improvement
+            of skills, knowledge, and creative thinking through a series of
+            websites. This is why I decided to only use my website from this
+            course which I have created as it will allow me and others to see my
+            progress with web development. <br /><br />
+            As my portfolio will effectively communicate the progression and
+            continuous learning of my journey in interactive, providing valuable
+            insights into my development and potential.
+          </p>
+        </article>
+      </main>
 
-      <section class="project" id="project">
+      <main>
         <h2 class="heading">The <span> Projects</span></h2>
-  
-        <div class="portfolio-container">
-          <div class="portfolio-box">
-            <img src="../Images/HomePage logo.png" alt="" />
-            <div class="portfolio-layer">
-              <h4>Website 1</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                nemo aspernatur illum consectetur vel mollitia explicabo, natus
-                repudiandae enim eaque sapiente sed laboriosam error impedit, ex
-                harum quos tempora debitis!
-              </p>
-              <a href="https://anand-ramnarain.github.io/MyWebsite/"><i class="bx bx-link-external"></i></a>
-            </div>
-          </div>
-  
-          <div class="portfolio-box">
-            <img src="../Images/Other Logo.png" alt="" />
-            <div class="portfolio-layer">
-              <h4>Website 2</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                nemo aspernatur illum consectetur vel mollitia explicabo, natus
-                repudiandae enim eaque sapiente sed laboriosam error impedit, ex
-                harum quos tempora debitis!
-              </p>
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </div>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="../Images/web1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Website 1</h4>
+            <p>
+              This is my very first website. It is not the best but it was a
+              starting point for me.
+            </p>
+            <a href="https://anand-ramnarain.github.io/MyWebsite/"
+              ><i class="bx bx-link-external"></i
+            ></a>
           </div>
         </div>
-      </section>
 
-      <footer>
-        <script id="replace_with_footer" src="../js/nav.js"></script>
-      </footer>
-</body>
+        <div class="portfolio-box">
+          <img src="../Images/web2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Website 2</h4>
+            <p>
+              This is my second website. If you were to compare the two, you can
+              see my progression.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+      </main>
+    </section>
+
+    <footer>
+      <script id="replace_with_footer" src="../js/nav.js"></script>
+    </footer>
+  </body>
   <script src="../js/nav.js"></script>
   <script src="../js/script.js"></script>
   <script src="../js/secondarynav.js"></script>

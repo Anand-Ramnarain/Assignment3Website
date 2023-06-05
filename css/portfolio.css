@@ -6,9 +6,6 @@
   }
 
 .port{
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
-.project{
-    background:var(--second-bg-color);
-}
