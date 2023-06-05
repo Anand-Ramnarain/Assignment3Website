@@ -90,3 +90,53 @@ block1[12].textContent ="For this week I am trying to add all my weekly blogs an
 "As in my last assignment..."
 
 var link = document.getElementsByTagName("button")
+
+link[0].onclick = function(){
+  window.open(linkToSite[1])
+}
+link[1].onclick = function(){
+  window.open(linkToSite[2])
+}
+link[2].onclick = function(){
+  window.open(linkToSite[3])
+}
+link[3].onclick = function(){
+  window.open(linkToSite[4])
+}
+link[4].onclick = function(){
+  window.open(linkToSite[5])
+}
+link[5].onclick = function(){
+  window.open(linkToSite[6])
+}
+link[6].onclick = function(){
+  window.open(linkToSite[8])
+}
+link[7].onclick = function(){
+  window.open(linkToSite[9])
+}
+link[8].onclick = function(){
+  window.open(linkToSite[10])
+}
+link[9].onclick = function(){
+  window.open(linkToSite[11])
+}
+link[10].onclick = function(){
+  window.open(linkToSite[12])
+}
+
+var linkToSite = [
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/week1.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week2.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week3.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week4.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week5.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week6.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week7.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week8.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week9.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week10.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week11.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week12.html',
+  'https://anand-ramnarain.github.io/Assignment3Website/blogposts/Week13.html'
+]
