@@ -7,6 +7,10 @@
 }
 
 .essays {
+  background: var(--second-bg-color);
+}
+
+#essay2{
   background: var(--bg-color);
 }
 
