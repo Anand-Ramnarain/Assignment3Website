@@ -56,3 +56,32 @@ function showSlidess(n) {
   dotss[slidesIndex-1].className += " active";
 }
 
+let sslideIndex = 1;
+showsSlides(sslideIndex);
+
+// Next/previous controls
+function plussSlides(n) {
+  showsSlides(sslideIndex += n);
+}
+
+// Thumbnail image controls
+function scurrentSlidess(n) {
+  showsSlides(slidessIndex = n);
+}
+
+function showsSlides(n) {
+  let i;
+  let sslide = document.getElementsByClassName("mySlidesss");
+  let sdot = document.getElementsByClassName("sdots");
+  if (n > sslide.length) {sslideIndex = 1}
+  if (n < 1) {sslideIndex = sslide.length}
+  for (i = 0; i < sslide.length; i++) {
+    sslide[i].style.display = "none";
+  }
+  for (i = 0; i < sdot.length; i++) {
+    sdot[i].className = sdot[i].className.replace(" active", "");
+  }
+  sslide[sslideIndex-1].style.display = "block";
+  sdot[sslideIndex-1].className += " active";
+}
+
