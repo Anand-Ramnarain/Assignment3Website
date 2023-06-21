@@ -22,6 +22,10 @@
   margin-top: 2%;
 }
 
+.box{
+  border: 0.2rem solid var(--main-color);
+}
+
 .blogs-containers,
 .blogs-boxs {
   flex: 1 1 30rem;
@@ -111,7 +115,7 @@
   padding: 2rem 2rem 4rem;
   border-radius: 2rem;
   text-align: center;
-  border: 0.2rem solid var(--bg-color);
+  border: 0.2rem solid var(--main-color);
   transition: 0.5s ease;
 }
 
