@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="HTML, CSS, JavaScript"/>
-    <meta name="author" content="Anand Ramnarain"/>
-    <meta name="page" content="Designpage"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Anand Ramnarain" />
+    <meta name="page" content="Designpage" />
     <title>Design Section</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/blog.css" />
@@ -26,6 +26,7 @@
         <a href="#style">Style Guide</a>
         <a href="#dev">Developments & Changes</a>
         <a href="#decisions">UI & UX Decisions</a>
+        <a href="#imnotes">Implementation Notes</a>
       </nav>
       <h2 class="heading"><span>Wire</span>frames</h2>
 
@@ -45,13 +46,19 @@
 
         <aside class="mySlides fade">
           <aside class="numberText">3 / 5</aside>
-          <img src="../Images/BlogMainWire.jpeg" alt="Main Blog Page Wireframe" />
+          <img
+            src="../Images/BlogMainWire.jpeg"
+            alt="Main Blog Page Wireframe"
+          />
           <aside class="text">Blog Main Page Wireframe</aside>
         </aside>
 
         <aside class="mySlides fade">
           <aside class="numberText">4 / 5</aside>
-          <img src="../Images/WeeklyWire.jpeg" alt="General Idea for Weekly blogs" />
+          <img
+            src="../Images/WeeklyWire.jpeg"
+            alt="General Idea for Weekly blogs"
+          />
           <aside class="text">Weekly Blog Page Wireframe</aside>
         </aside>
 
@@ -76,7 +83,10 @@
         <h3 class="bheading">Wireframes: End Result</h3>
         <aside class="mySlidess fades">
           <aside class="numberTexts">1 / 7</aside>
-          <img src="../Images/Websiteblockframe.png" alt="Homepage BlockFrame" />
+          <img
+            src="../Images/Websiteblockframe.png"
+            alt="Homepage BlockFrame"
+          />
           <aside class="texts">Home Page BlockFrame</aside>
         </aside>
 
@@ -94,7 +104,10 @@
 
         <aside class="mySlidess fades">
           <aside class="numberTexts">4 / 7</aside>
-          <img src="../Images/WeeklyBlog.png" alt="General Idea for Weekly blogs" />
+          <img
+            src="../Images/WeeklyBlog.png"
+            alt="General Idea for Weekly blogs"
+          />
           <aside class="texts">Weekly Blog BlockFrame</aside>
         </aside>
 
@@ -550,6 +563,91 @@
             functionality, and encounter minimal frustrations. By providing
             clear information, and minimizing cognitive load, My website's UI
             and UX contribute to a positive user experiences.
+          </p>
+        </article>
+      </main>
+    </section>
+
+    <section class="dev" id="imnotes">
+      <h2 class="heading"><span>Implementation</span> Notes</h2>
+      <main class="design-container">
+        <article>
+          <h4 class="bSubhead">Folder Structure</h4>
+          <br />
+          <p class="essayText">
+            The folder structure of my website is done in a way to separate all
+            the different types of scripts thus so that one can find what they
+            are looking for easily. As all the HTML, CSS and JavaScript are kept
+            in separate folders, thus to allow for it to find the different
+            types of scripts easily. The only thing is that I put the weekly
+            blog HTML scripts in a separate folder from the other HTML pages
+            scripts as is because there are multiple weekly blogs and I wanted
+            it to be easier to find the different weekly blogs and so I need to
+            add another or remove it could be easier to find. The naming
+            conventions for each script refer to which page the script
+            represents this is so that I know which page I am working on as well
+            as the corresponding script to that page, This means I use blog.html
+            for the blog page and then for the styling I used blog.css, this
+            just made it simpler and easier in the sense as I knew which HTML
+            page belonged with which CSS page.
+          </p>
+          <br />
+          <h4 class="bSubhead">Semantic Markup</h4>
+          <br />
+          <p class="essayText">
+            When I started I never go through my assignment 1 and because I this
+            and my careless mistake, I ended up using a lot of divs and I made a
+            mistake with my section and main element. As each section is
+            supposed to be a main and the divs are supposed to be sections, can
+            change this would be very difficult as my section is customized in
+            CSS for a purpose, so I decided to remove as many divs as possible
+            and used another semantic element in place of them to which I feel
+            corresponded even though they are in section. It would of be correct
+            to switch the correct elements as in ‘main’ with ‘section’, but when
+            I tried my website would not look and be displayed correctly. So
+            within each section, there will be a ‘main’ to represent the
+            containers or the focus aspect of the content, a ‘summary’ I used
+            for each aspect which I feel is I description of what is going to be
+            on another page, ‘article’ to represent element on the page which
+            are long pieces of work like keeping my blog content and essay
+            content. This was the best I could do in terms of correctly using
+            semantic elements as when I tried to change it with my section it
+            gave me errors, there are better ways in which I could have done it
+            but this was the best I could do without messing up the website.
+          </p>
+          <br />
+          <h4 class="bSubhead">JavaScript</h4>
+          <br />
+          <p class="essayText">
+            In regards to JavaScript, When I was thinking of my concepts for the
+            website and when I started coding it, I wanted to use JS to avoid
+            repetition in my HTML pages, So I first coded each aspect in HTML
+            then I went tried to remove them and replace them with JS. This was
+            mainly used in the blog's main page as each description of the blogs
+            would have to be repeated. This was manageable though JS had to
+            repeat each weekly blog with a small part of what I talked about.
+            This way, I could remove a long set of code for each blog box and
+            just have to create it through JS. The reason why I didn’t replace
+            this code throughout the website was that I would cause more harm to
+            remove each part similar to it as not each box had an over 3 or 4,
+            thus I would have had to remake another JS script for each section
+            and this would not be effective.
+          </p>
+          <br />
+          <h4 class="bSubhead">CSS</h4>
+          <br />
+          <p class="essayText">
+            With CSS I avoided using CSS scripting in html by using classes and
+            id, this helped me to assign values to each of the classes and then
+            I could just assign a class to the content and it will appear and
+            look similar to that. I would say that my CSS is maintainable as it
+            was designed first for each html page as worked from one to the
+            other and just was not effective as there were multiple similar
+            elements of pages which need the same look and thus it resulted in
+            me using the same class in a different page or me having to recreate
+            a similar class and using the same CSS code. Thus it was not an
+            effective way to use my CSS but if correctly maintainable it is
+            usable.
           </p>
         </article>
       </main>
