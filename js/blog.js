@@ -92,37 +92,37 @@ block1[12].textContent ="For this week I am trying to add all my weekly blogs an
 var link = document.getElementsByTagName("button")
 
 link[0].onclick = function(){
-  window.open(linkToSite[1])
+  window.open(linkToSite[1],'_self')
 }
 link[1].onclick = function(){
-  window.open(linkToSite[2])
+  window.open(linkToSite[2],'_self')
 }
 link[2].onclick = function(){
-  window.open(linkToSite[3])
+  window.open(linkToSite[3],'_self')
 }
 link[3].onclick = function(){
-  window.open(linkToSite[4])
+  window.open(linkToSite[4],'_self')
 }
 link[4].onclick = function(){
-  window.open(linkToSite[5])
+  window.open(linkToSite[5],'_self')
 }
 link[5].onclick = function(){
-  window.open(linkToSite[6])
+  window.open(linkToSite[6],'_self')
 }
 link[6].onclick = function(){
-  window.open(linkToSite[8])
+  window.open(linkToSite[8],'_self')
 }
 link[7].onclick = function(){
-  window.open(linkToSite[9])
+  window.open(linkToSite[9],'_self')
 }
 link[8].onclick = function(){
-  window.open(linkToSite[10])
+  window.open(linkToSite[10],'_self')
 }
 link[9].onclick = function(){
-  window.open(linkToSite[11])
+  window.open(linkToSite[11],'_self')
 }
 link[10].onclick = function(){
-  window.open(linkToSite[12])
+  window.open(linkToSite[12],'_self')
 }
 
 var linkToSite = [
